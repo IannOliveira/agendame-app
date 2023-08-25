@@ -36,6 +36,16 @@ export const useAuth = defineStore('auth', {
         token
       })
     },
+    forgotPassword(email){
+      return axios.post('api/forgot-password', {
+        email
+      })
+    },
+    resetPassword(token, password){
+      return axios.post('api/reset-password', {
+        token, password
+      })
+    },
   },
 
   getters: {
