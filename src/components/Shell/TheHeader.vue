@@ -39,8 +39,6 @@
           <v-icon icon="mdi-menu" />
         </v-btn>
 
-        <!-- Notification
-        <NotificationDD />-->
       </div>
       <div>
         <v-btn

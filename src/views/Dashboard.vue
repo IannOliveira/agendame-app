@@ -1,9 +1,9 @@
 <template>
   <VContainer>
     Dashboard <br>
-    <VBtn v-if="can('edit_post')">Editar post</VBtn>
+    <VBtn v-if="can('ship_product')">Despachar produto</VBtn>
     <br>
-    <VBtn v-if="can('delete_user')">Deletar user</VBtn>
+    <VBtn v-if="can('delete_user')">Deletar usuário</VBtn>
     <pre>{{user}}</pre>
 
   </VContainer>
